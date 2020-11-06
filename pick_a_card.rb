@@ -15,7 +15,7 @@ values.each do |value|
   suits.each do |suit|
     cards << "#{value}#{suit[0]}" 
   end
-ends
+end
 
 2.times do
   cards << '[Joker]'
